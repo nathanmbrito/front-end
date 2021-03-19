@@ -5,11 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/main.css">
 
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-    <script src="js/index.js" async></script>
+
+    <!-- JQuery -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+    <!-- Local files -->
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 <body>
     <div class="hero-bg">
@@ -25,12 +34,12 @@
             <div class="form-container">
                 <form action="">
                     <div class="form-left">
-                        <label for="City">Enter yout city:</label>
-                        <input type="text" name="city" id="city">
-                        <p>Example: "Rio de Janeiro</p>
+                        <label for="City">Informe uma criptomoeda ou token:</label>
+                        <input type="text" id="fNameCripto"/>
+                        <p>Exemplo: Bitcoin, Ethereum, Litecoin <p>
                     </div>
 
-                    <input onclick="onHandleClickButton(this)" type="button" value="Find Food Now" id="cta-btn">
+                    <input onclick="onHandleClickButton(this)" type="button" value="Encontrar agora" id="cta-btn">
                 </form>
             </div>
         </section>
