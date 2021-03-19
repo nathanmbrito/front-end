@@ -1,3 +1,15 @@
     function onHandleClickButton(event) {
-        console.log(event)
+        alert('botão disparado')
     }
+
+    $(function() {
+        var criptoCurrency = [
+          "Bitcoin",
+          "Ethereum",
+          "Litecoin",
+          "Cardano"
+        ];
+        $("#fNameCripto" ).autocomplete({
+          source: criptoCurrency
+        });
+      });
