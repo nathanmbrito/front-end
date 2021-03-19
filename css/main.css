@@ -186,7 +186,7 @@ p {
    }
 
    .form-container {
-       margin: 2em 0 0;
+       margin-left: -5px;
        padding: 2em;
        border-radius: .5em;
        box-shadow: 10px 10 px 10 px rgba(0,0,0,.3);
@@ -205,7 +205,6 @@ p {
        height: fit-content;
        font-size: 1.1em;
        margin-left: 1em;
-       margin-top: 2.2em;
        padding: .7em 0;
        width: 30%;
    }
@@ -272,4 +271,15 @@ p {
     100% {
         opacity: 0;
     }
+}
+
+.submit-button {
+    align-self: center;
+    padding: 19px !important;
+    margin-top: 8px;
+}
+
+.header-logo {
+    height: 30px;
+    width: 30px;
 }
